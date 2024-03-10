@@ -1,0 +1,71 @@
+:root {
+    --color-bg: #0F152E;
+    --color-accent: #A970FF;
+    --color-nav: #0D142B;
+    --color-text: #FFF;
+    --color-icons: #999;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-white);
+}
+
+.navbar {
+    background-color: var(--color-nav);
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+}
+
+.navbar-brand .offset {
+    margin-left: 40px;
+    color: var(--color-accent);
+}
+
+.navbar-brand:hover {
+    opacity: 1;
+}
+
+.nav-link {
+    color: var(--color-text);
+}
+
+.nav-link:hover {
+    color: var(--color-accent);
+}
+
+#contactme {
+    background: linear-gradient(to right, var(--color-accent), #3B1378);
+    border-radius: 0.7vh;
+}
+
+section {
+    margin-top: 10vh;
+}
+
+.title-front {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    color: var(--color-accent); 
+    z-index: 1; 
+}
+
+.title-back {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5em; 
+    color: var(--color-accent); 
+    opacity: 0.05;
+    z-index: -1; 
+}
