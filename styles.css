@@ -49,23 +49,43 @@ section {
     margin-top: 10vh;
 }
 
-.title-front {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2.5em;
-    color: var(--color-accent); 
-    z-index: 1; 
+h2 {
+    color: var(--color-accent);
+    margin-bottom: 2rem;
 }
 
-.title-back {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 4.5em; 
-    color: var(--color-accent); 
-    opacity: 0.05;
-    z-index: -1; 
+.contenido {
+    max-width: 60rem;
+}
+
+#nombre, #puesto {
+    color: var(--color-accent);
+}
+
+p {
+    color: var(--color-text);
+}
+
+#mi_foto {
+    border-radius: 0.5rem;
+}
+
+#recuadro {
+    border-width: 0.5rem !important;
+    border-radius: 0.5rem;
+    border-color: var(--color-accent) !important;
+    right: -30px;
+    top: 10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    z-index: -1;
+}
+
+#texto {
+    margin-left: 5rem;
+}
+
+hr {
+    margin-top: 5rem;
+    color: var(--color-text);
 }
