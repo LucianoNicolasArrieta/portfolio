@@ -45,6 +45,10 @@ body {
     border-radius: 0.7vh;
 }
 
+.navbar-toggler {
+    border: var(--bs-border-width) solid var(--color-accent) !important;
+}
+
 section {
     margin-top: 10vh;
 }
