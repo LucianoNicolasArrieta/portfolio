@@ -130,3 +130,23 @@ h1 {
 .carousel-control-next, .carousel-control-prev {
     filter: invert(100%);
 }
+
+li::marker {
+    color: var(--color-accent);
+}
+
+ul {
+    color: var(--color-text);
+}
+
+.repo-link {
+    color: var(--color-accent);
+}
+
+.repo-link:hover {
+    opacity: 0.7;
+}
+
+.repo-link:active {
+    opacity: 0.5;
+}
