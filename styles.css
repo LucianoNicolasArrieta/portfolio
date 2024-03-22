@@ -43,6 +43,11 @@ body {
 .primario {
     background: linear-gradient(to right, var(--color-accent), #3B1378);
     border-radius: 0.7vh;
+    color: var(--color-text);
+}
+
+.primario:hover {
+    color: var(--color-accent);
 }
 
 .navbar-toggler {
