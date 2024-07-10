@@ -114,6 +114,10 @@ svg {
     margin: 2rem 1rem 0 1rem;
 }
 
+.modal-content {
+    background-color: var(--color-nav) !important;
+}
+
 .volver {
     color: white;
     text-decoration: none;
@@ -144,14 +148,14 @@ ul {
     color: var(--color-text);
 }
 
-.repo-link {
+.anchor {
     color: var(--color-accent);
 }
 
-.repo-link:hover {
+.anchor:hover {
     opacity: 0.7;
 }
 
-.repo-link:active {
+.anchor:active {
     opacity: 0.5;
 }

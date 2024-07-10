@@ -170,10 +170,100 @@
     </div>
     <div class="container d-flex align-items-center justify-content-center flex-column flex-lg-row">
       <div class="card border-dark text-center" style="max-width: 25rem;">
-        <img src="img/login.png" class="card-img-top" alt="una pantalla del proyecto">
+        <img src="img/proyecto-tpa/login.png" class="card-img-top" alt="una pantalla del proyecto">
         <div class="card-body">
-          <p class="card-text fw-semibold">Sistema de Apoyo a Comunidades con Movilidad Reducida.</p>
-          <a href="proyecto-tpa/tpa-dds.html" class="btn primario border-0 fw-light">Ver proyecto</a>
+          <p class="card-text fw-semibold">Sistema de Apoyo a Comunidades con Movilidad Reducida</p>
+          <a href="proyecto-tpa/tpa-dds.html" class="btn primario border-0 fw-light" data-bs-toggle="modal"
+            data-bs-target="#proyecto1">Ver proyecto</a>
+          <div class="modal modal-xl fade" id="proyecto1" tabindex="-1" aria-labelledby="proyecto1ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header border-0">
+                  <h1 class="modal-title fs-5" id="proyecto1ModalLabel">Sistema de Apoyo a Comunidades con Movilidad
+                    Reducida</h1>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                </div>
+                <hr class="m-0">
+                <div class="modal-body border-0">
+                  <div class="container mb-4">
+                    <div id="carousel" class="carousel slide">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/proyecto-tpa/login.png" class="d-block w-100"
+                            alt="Pantalla de Login del proyecto">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/proyecto-tpa/comunidades.png" class="d-block w-100"
+                            alt="Pantalla de Comunidades del usuario">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/proyecto-tpa/servicios.png" class="d-block w-100"
+                            alt="Pantalla de Servicios que releva la comunidad">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/proyecto-tpa/incidentes y resolucion.png" class="d-block w-100"
+                            alt="Pantalla de Incidentes reportados de un servicio">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/proyecto-tpa/rankings.png" class="d-block w-100"
+                            alt="Pantalla de rankings de entidades">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/proyecto-tpa/carga entidades y organismos.png" class="d-block w-100"
+                            alt="Pantalla de carga de a traves de csv">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="container text-start">
+                    <p class="mb-1">Proyecto grupal realizado en el 2023 para la materia <span
+                        class="resaltado fw-semibold">Diseño de
+                        Sistemas</span> de la Universidad Tecnológica Nacional.</p>
+                    <p class="mb-1">El mismo consistía en desarrollar un sistema <span class="resaltado">dirigido a
+                        comunidades con movilidad
+                        reducida</span> y en donde puedan <span class="resaltado">relevar el estado de los
+                        servicios</span> que
+                      utilizan en el dia a dia de manera tal que puedan saber de ante mano si pueden realizar su
+                      recorrido diario sin
+                      complicaciones o necesitan cambiar su trayecto.</p>
+                    <p class="mb-1">Se realizó con un enfoque de desarrollo iterativo. A medida que avanzabamos con los
+                      contenidos de la materia, habia nuevos
+                      requerimientos que cumplir para aplicar los mismos en un caso práctico y en cada entrega
+                      recibíamos feedback de lo realizado.</p>
+                    <p class="mb-2">Se desarrolló utilizando:</p>
+                    <ul>
+                      <li><span class="fw-semibold">Lenguaje</span>: Java (JDK 17)</li>
+                      <li><span class="fw-semibold">IDE</span>: IntelliJ IDEA</li>
+                      <li><span class="fw-semibold">Gestor de dependencias</span>: Maven</li>
+                      <li><span class="fw-semibold">Motor base de datos</span>: MySQL</li>
+                      <li><span class="fw-semibold">ORM</span>: Hibernate</li>
+                      <li><span class="fw-semibold">Framework web</span>: Javalin</li>
+                      <li><span class="fw-semibold">Template engine</span>: Handlebars</li>
+                      <li>HTML, CSS & JS</li>
+                      <li><span class="fw-semibold">PaaS (Deploy)</span>: Render</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="modal-footer border-0 m-0">
+                  <a type="button" class="anchor me-3 text-decoration-none" data-bs-dismiss="modal">Cerrar</a>
+                  <a href="https://github.com/LNArrUniv/TPA-DDS-2023" class="btn primario border-0 fw-light"
+                    target="_blank">Repositorio</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <p></p>
