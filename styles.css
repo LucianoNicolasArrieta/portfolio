@@ -36,18 +36,20 @@ body {
     color: var(--color-text);
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link:focus {
     color: var(--color-accent);
 }
 
 .primario {
-    background: linear-gradient(to right, var(--color-accent), #3B1378);
+    background: linear-gradient(to right, rgba(169, 112, 255, 1), rgba(56, 30, 94, 1));
     border-radius: 0.7vh;
     color: var(--color-text);
+    transition: ease-out 0.5s;
 }
 
-.primario:hover {
-    color: var(--color-accent);
+.primario:hover, .primario:focus {
+    background: linear-gradient(to right, rgba(169, 112, 255, 0.8), rgba(56, 30, 94, 0.8));
+    color: var(--color-text);
 }
 
 .navbar-toggler {
@@ -158,4 +160,26 @@ ul {
 
 .anchor:active {
     opacity: 0.5;
+}
+
+#contactame div form {
+    width: 35em;
+}
+
+.form-control {
+    margin: 0.5rem 0;
+    color: var(--color-text) !important;
+    background-color: var(--color-nav);
+    border-color: var(--color-accent);
+    transition: ease-in 0.2s;
+}
+
+.form-control::placeholder {
+    color: var(--color-icons);
+}
+
+.form-control:focus {
+    background-color: var(--color-nav);
+    border-color: var(--color-accent);
+    box-shadow: 0px 0px 8px 0px rgba(169,112,255,0.8);
 }

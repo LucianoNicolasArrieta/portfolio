@@ -16,7 +16,7 @@
 <body>
   <section id="working_on_it" class="m-0 p-0">
     <div class="w-100 h-25 d-flex justify-content-center" style="background-color: black;">
-      <p class="align-self-center m-0">Not finished yet ...</p>
+      <p class="align-self-center m-0">Aún no terminado ...</p>
     </div>
   </section>
   <header>
@@ -63,11 +63,10 @@
       </div>
       <div id="texto" class="ms-0 mt-4 mt-lg-0 ms-lg-5">
         <p class="fs-5 mb-2">Mi nombre es <span class="resaltado fw-bold">Luciano Nicolás Arrieta</span>.</p>
-        <p>Actualmente, estoy buscando mi primer empleo en el mundo IT como <span
-            class="resaltado fw-semibold">Desarrollador Java</span>.
-          Estoy estudiando la carrera de Ingeniería en Sistemas de Información de la Universidad Tecnológica Nacional.
-          Tengo muchas ganas de
-          aplicar mis conocimientos en nuevos desafíos junto a un equipo al cual pueda aportar y de paso aprender lo
+        <p>Actualmente, estoy buscando mi primer empleo en el mundo IT. <br>
+          Me encuentro a mediados de la carrera de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional. <br>
+          A la par, estoy aprendiendo y profundizando sobre Desarrollo Web con Java tanto de manera autodidacta como también realizando cursos como Oracle Next Education o Codo a Codo. <br>
+          Espero con ansias poder aplicar todos mis conocimientos en un ámbito laboral junto a un equipo de profesionales del cual poder aprender lo
           máximo posible para poder seguir creciendo tanto de manera profesional como personal.</p>
       </div>
     </div>
@@ -169,11 +168,11 @@
       </div>
     </div>
     <div class="d-md-flex justify-content-center">
-      <div class="card border-dark text-center" style="max-width: 25rem;">
+      <div class="card border-dark text-center d-flex flex-column justify-content-between" style="max-width: 25rem;">
         <img src="img/proyecto-tpa/login.png" class="card-img-top" alt="una pantalla del proyecto">
-        <div class="card-body">
+        <div class="card-body d-flex flex-grow-1 flex-column justify-content-between align-items-center">
           <p class="card-text fw-semibold">Sistema de Apoyo a Comunidades con Movilidad Reducida</p>
-          <a href="#" class="btn primario border-0 fw-light" data-bs-toggle="modal" data-bs-target="#proyecto1">Ver
+          <a href="#" class="primario border-0 fw-light pe-3 ps-3 pt-2 pb-2 text-decoration-none w-50" data-bs-toggle="modal" data-bs-target="#proyecto1">Ver
             proyecto</a>
           <div class="modal modal-xl fade" id="proyecto1" tabindex="-1" aria-labelledby="proyecto1ModalLabel"
             aria-hidden="true">
@@ -263,7 +262,7 @@
                 </div>
                 <div class="modal-footer border-0 m-0">
                   <a type="button" class="anchor me-3 text-decoration-none" data-bs-dismiss="modal">Cerrar</a>
-                  <a href="https://github.com/LNArrUniv/TPA-DDS-2023" class="btn primario border-0 fw-light"
+                  <a href="https://github.com/LNArrUniv/TPA-DDS-2023" class="primario border-0 fw-light pe-3 ps-3 pt-2 pb-2 text-decoration-none"
                     target="_blank">Repositorio</a>
                 </div>
               </div>
@@ -271,11 +270,11 @@
           </div>
         </div>
       </div>
-      <div class="card border-dark text-center" style="max-width: 25rem;">
+      <div class="card border-dark text-center d-flex flex-column justify-content-between" style="max-width: 25rem;">
         <img src="img/movies/inicio.png" class="card-img-top" alt="una pantalla del proyecto">
-        <div class="card-body">
+        <div class="card-body d-flex flex-grow-1 flex-column justify-content-between align-items-center">
           <p class="card-text fw-semibold">Página de Películas</p>
-          <a href="#" class="btn primario border-0 fw-light" data-bs-toggle="modal" data-bs-target="#proyecto2">Ver
+          <a href="#" class="primario border-0 fw-light pe-3 ps-3 pt-2 pb-2 text-decoration-none w-50" data-bs-toggle="modal" data-bs-target="#proyecto2">Ver
             proyecto</a>
           <div class="modal modal-xl fade" id="proyecto2" tabindex="-1" aria-labelledby="proyecto2ModalLabel"
             aria-hidden="true">
@@ -361,7 +360,7 @@
                 <div class="modal-footer border-0 m-0">
                   <a type="button" class="anchor me-3 text-decoration-none" data-bs-dismiss="modal">Cerrar</a>
                   <a href="https://github.com/LucianoNicolasArrieta/movies-cac-2024"
-                    class="btn primario border-0 fw-light" target="_blank">Repositorio</a>
+                    class="primario border-0 fw-light pe-3 ps-3 pt-2 pb-2 text-decoration-none" target="_blank">Repositorio</a>
                 </div>
               </div>
             </div>
@@ -379,7 +378,21 @@
         <h2>Contáctame</h2>
       </div>
     </div>
-    <div class="container d-flex justify-content-evenly mt-4">
+    <div class="container d-flex align-items-center justify-content-center w-auto">
+      <form action="#" class="form">
+          <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre completo" required>
+          <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+          <input type="text" class="form-control" name="asunto" id="asunto" placeholder="Asunto" required>
+          <textarea class="form-control" name="cuerpo" id="cuerpo" placeholder="Redacte aquí su email" style="resize: none; height: 10rem;" required></textarea>
+          <div class="d-flex justify-content-center mt-4">
+            <button type="submit" class="primario border-0 w-50 pe-5 ps-5 pt-2 pb-2">Enviar</button>
+          </div>
+      </form>
+    </div>
+    <div class="text-center mt-3 mb-3">
+      <p>o</p>
+    </div>
+    <div class="container d-flex justify-content-center mt-4">
       <a href="https://www.linkedin.com/in/luciano-nicolas-arrieta/" target="_blank">
         <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -387,32 +400,21 @@
             fill="#999999" />
         </svg>
       </a>
-      <a href="mailto:lucianoarrieta077@gmail.com">
-        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M41.6666 37.5H37.5V19.2709L25 27.0834L12.5 19.2709V37.5H8.33329V12.5H10.8333L25 21.3542L39.1666 12.5H41.6666M41.6666 8.33337H8.33329C6.02079 8.33337 4.16663 10.1875 4.16663 12.5V37.5C4.16663 38.6051 4.60561 39.6649 5.38701 40.4463C6.16842 41.2277 7.22822 41.6667 8.33329 41.6667H41.6666C42.7717 41.6667 43.8315 41.2277 44.6129 40.4463C45.3943 39.6649 45.8333 38.6051 45.8333 37.5V12.5C45.8333 11.395 45.3943 10.3352 44.6129 9.55376C43.8315 8.77236 42.7717 8.33337 41.6666 8.33337Z"
-            fill="#999999" />
-        </svg>
-      </a>
       <a href="https://github.com/LucianoNicolasArrieta" target="_blank">
-        <svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_2_37)">
-            <path
-              d="M49.0542 23.2262L27.2229 0.960442C26.6177 0.34536 25.7981 0 24.9437 0C24.0894 0 23.2698 0.34536 22.6646 0.960442L18.1417 5.58232L23.8917 11.4473C24.5701 11.2129 25.2993 11.1773 25.9966 11.3444C26.6938 11.5116 27.3311 11.8749 27.8361 12.3931C28.341 12.9112 28.6934 13.5634 28.8531 14.2756C29.0128 14.9878 28.9735 15.7314 28.7396 16.4219L34.2771 22.0744C35.0966 21.7838 35.9886 21.7856 36.807 22.0797C37.6253 22.3738 38.3215 22.9426 38.7815 23.693C39.2414 24.4434 39.4379 25.3309 39.3387 26.2101C39.2395 27.0893 38.8505 27.9081 38.2354 28.5323C37.88 28.8955 37.4578 29.1836 36.9931 29.3801C36.5283 29.5767 36.0302 29.6779 35.5271 29.6779C35.024 29.6779 34.5258 29.5767 34.0611 29.3801C33.5964 29.1836 33.1742 28.8955 32.8187 28.5323C32.2861 27.9875 31.9223 27.2948 31.7726 26.5407C31.623 25.7865 31.6941 25.0041 31.9771 24.2908L26.7917 19.0293V32.8949C27.1583 33.0777 27.5042 33.3263 27.8083 33.6344C28.5218 34.3697 28.922 35.3624 28.922 36.3969C28.922 37.4315 28.5218 38.4242 27.8083 39.1594C27.4516 39.5237 27.0279 39.8126 26.5616 40.0098C26.0953 40.2069 25.5954 40.3084 25.0906 40.3084C24.5858 40.3084 24.086 40.2069 23.6197 40.0098C23.1534 39.8126 22.7297 39.5237 22.3729 39.1594C22.0168 38.7974 21.7342 38.3672 21.5414 37.8935C21.3486 37.4198 21.2493 36.912 21.2493 36.3991C21.2493 35.8862 21.3486 35.3783 21.5414 34.9046C21.7342 34.431 22.0168 34.0008 22.3729 33.6387C22.7521 33.2562 23.1792 32.9672 23.6333 32.7759V18.7743C23.1657 18.5793 22.7405 18.2916 22.3826 17.9279C22.0246 17.5642 21.741 17.1317 21.548 16.6554C21.355 16.1791 21.2566 15.6685 21.2583 15.1532C21.2601 14.6378 21.3621 14.128 21.5583 13.6531L15.9083 7.86244L0.9375 23.1221C-0.3125 24.4077 -0.3125 26.4881 0.9375 27.7737L22.7708 50.0373C23.0698 50.3425 23.4247 50.5846 23.8154 50.7498C24.2062 50.915 24.625 51 25.0479 51C25.4709 51 25.8897 50.915 26.2804 50.7498C26.6711 50.5846 27.0261 50.3425 27.325 50.0373L49.0542 27.8736C49.3539 27.5688 49.5918 27.2066 49.7541 26.8079C49.9164 26.4091 49.9999 25.9816 49.9999 25.5499C49.9999 25.1181 49.9164 24.6906 49.7541 24.2919C49.5918 23.8932 49.3539 23.531 49.0542 23.2262Z"
-              fill="#999999" />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_37">
-              <rect width="50" height="51" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0,0,255.98959,255.98959">
+          <g fill="#999999" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M15,3c-6.627,0 -12,5.373 -12,12c0,5.623 3.872,10.328 9.092,11.63c-0.056,-0.162 -0.092,-0.35 -0.092,-0.583v-2.051c-0.487,0 -1.303,0 -1.508,0c-0.821,0 -1.551,-0.353 -1.905,-1.009c-0.393,-0.729 -0.461,-1.844 -1.435,-2.526c-0.289,-0.227 -0.069,-0.486 0.264,-0.451c0.615,0.174 1.125,0.596 1.605,1.222c0.478,0.627 0.703,0.769 1.596,0.769c0.433,0 1.081,-0.025 1.691,-0.121c0.328,-0.833 0.895,-1.6 1.588,-1.962c-3.996,-0.411 -5.903,-2.399 -5.903,-5.098c0,-1.162 0.495,-2.286 1.336,-3.233c-0.276,-0.94 -0.623,-2.857 0.106,-3.587c1.798,0 2.885,1.166 3.146,1.481c0.896,-0.307 1.88,-0.481 2.914,-0.481c1.036,0 2.024,0.174 2.922,0.483c0.258,-0.313 1.346,-1.483 3.148,-1.483c0.732,0.731 0.381,2.656 0.102,3.594c0.836,0.945 1.328,2.066 1.328,3.226c0,2.697 -1.904,4.684 -5.894,5.097c1.098,0.573 1.899,2.183 1.899,3.396v2.734c0,0.104 -0.023,0.179 -0.035,0.268c4.676,-1.639 8.035,-6.079 8.035,-11.315c0,-6.627 -5.373,-12 -12,-12z"></path></g></g>
+          </svg>
       </a>
     </div>
-    <div class="container d-flex justify-content-center">
+    <!-- <div class="container d-flex justify-content-center">
       <a class="btn primario fw-light mt-5 border-0" href="files/Curriculum.pdf" download>Descargar Curriculum</a>
-    </div>
+    </div> -->
   </section>
+  
+
+  <script src="script.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
