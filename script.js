@@ -23,6 +23,11 @@ function sendEmail() {
                 icon: "success",
                 text: "El mensaje se ha enviado correctamente!"
               });
+            nombre.value = '';
+            email.value = '';
+            asunto.value = '';
+            cuerpo.value = '';
+
         } else {
             Swal.fire({
                 icon: "error",
